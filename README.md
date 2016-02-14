@@ -51,3 +51,19 @@ monty.save(function(err) {
     console.log(err || "Model saved!");
 });
 ```
+
+### Model.find()
+
+``` javascript
+User.find("montyanderson", function(err, data) {
+    console.log(err || data);
+});
+```
+
+You can also fetch multiple objects at a time, like this.
+
+``` javascript
+User.find(["montyanderson", "user1", "user2"], function(err, data) {
+    console.log(err || data);
+});
+```
