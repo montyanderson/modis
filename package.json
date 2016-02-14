@@ -1,0 +1,22 @@
+{
+  "name": "modis",
+  "version": "0.0.0",
+  "description": "Mongoose-like models for Redis.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/montyanderson/modis.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/montyanderson/modis/issues"
+  },
+  "homepage": "https://github.com/montyanderson/modis#readme",
+  "dependencies": {
+    "redis": "^2.4.2"
+  }
+}
