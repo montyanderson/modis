@@ -1,6 +1,6 @@
 {
   "name": "modis",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Mongoose-like models for Redis.",
   "main": "index.js",
   "scripts": {
